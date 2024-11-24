@@ -1,0 +1,18 @@
+/* ShareTestResults component styles */
+#share-section {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #share-section select, #share-section button {
+    margin-bottom: 15px;
+  }
+  
+  form button {
+    width: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  

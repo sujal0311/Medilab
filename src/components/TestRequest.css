@@ -1,0 +1,22 @@
+/* TestRequest component styles */
+#request-section {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form input, form select, form button {
+    margin-bottom: 15px;
+  }
+  
+  form button {
+    width: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    font-size: 1.2rem;
+  }
+  

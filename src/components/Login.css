@@ -1,0 +1,54 @@
+/* Container for the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00b894;
+  }
+  
+  /* The actual box for the form */
+  .login-box {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+    text-align: center;
+  }
+  
+  /* Input fields */
+  .login-box .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  
+  /* Forgot password link */
+  .forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px; 
+    color: #0984e3;
+    cursor: pointer;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  /* Login button */
+  .login-btn {
+    margin-top: 20px;
+    padding: 15px; 
+    border: none;
+    background-color: #00b894;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; 
+  }
+  
+  .login-btn:hover {
+    background-color: #01926b;
+  }
+  

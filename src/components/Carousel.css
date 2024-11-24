@@ -1,0 +1,48 @@
+
+.carousel {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #00b894;
+  }
+  
+  .carousel-slide {
+    display: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+  .carousel-slide.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color:white;
+  }
+  
+  .slide-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
